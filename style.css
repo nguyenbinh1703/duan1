@@ -18,3 +18,13 @@
 .modau h1 {
     font-size: 40px;
 }
+
+.thongtin a:hover {
+    color: green;
+    font-size: 30px;
+}
+
+.thongtin a:active {
+    color: red;
+    font-size: 30px;
+}
