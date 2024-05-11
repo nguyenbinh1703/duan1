@@ -3,7 +3,14 @@
 }
 
 .modau a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: aqua;
+    color: white;
     font-size: 20px;
+    border-radius: 99999px;
+    padding: 8px 16px;
+    margin-top: 10px;
 }
 .modau a:hover {
     color: green;
@@ -11,12 +18,23 @@
 }
 
 .modau a:active {
-    color: red;
+    color: black;
     font-size: 30px;
 }
 
 .modau h1 {
     font-size: 40px;
+}
+
+.thongtin a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: aqua;
+    color: white;
+    font-size: 20px;
+    border-radius: 99999px;
+    padding: 8px 16px;
+    margin-top: 10px;
 }
 
 .thongtin a:hover {
@@ -25,11 +43,20 @@
 }
 
 .thongtin a:active {
-    color: red;
+    color: black;
     font-size: 30px;
 }
 
 a img {
-    width: 200px;
-    border-radius: 15px;
+    max-width: 200px;
+    border-radius: 50%;
+    opacity: 10%;
+}
+
+a img:hover {
+    opacity: 100%;
+}
+
+a img:active {
+    border: 5px dotted aqua;
 }
