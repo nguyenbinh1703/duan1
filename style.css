@@ -60,3 +60,11 @@ a img:hover {
 a img:active {
     border: 5px dotted aqua;
 }
+
+.fa-facebook {
+    color: blue;
+}
+
+.fa-phone {
+    color: green;
+}
